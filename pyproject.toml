@@ -1,0 +1,44 @@
+[project]
+name = "streamlit-redirect"
+version = "0.1.0"
+description = "A custom streamlit component for performing a page redirect programmatically. This is helpful since it is often required to perform a redirect, for instance after a button click or login. The streamlit-redirect component solves this by inserting a <meta> tag which directly triggers a browser redirect"
+authors = [
+    {name = "Jonathan Alles",email = "Jonathan.Alles@evo-byte.com"}
+]
+dynamic = [ "classifiers" ]
+
+license = { text = "Apache-2.0" }
+
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit (>=1.40)"
+]
+
+keywords = [ "streamlit", "python" ]
+
+[tool.poetry.group.dev.dependencies]
+pytest = { version = "^7.0.0" }
+playwright = { version = "^1.0.0" }
+pytest-playwright = { version = "^0.7.0" }
+
+[tool.poetry]
+classifiers = [
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Browsers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+homepage = "https://www.evo-byte.com"
+repository = "https://github.com/EvobyteDigitalBiology/streamlit-redirect"
