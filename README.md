@@ -2,6 +2,10 @@
 
 A lightweight Streamlit component for performing page redirects programmatically. This component is helpful when you need to redirect users to external URLs, for instance after a button click, form submission, or successful login.
 
+
+<img src="docs/streamlit_redirect_video.gif" alt="streamlit-redirect demo" width="400">
+
+
 ## Features
 
 - 🚀 Simple programmatic redirects in Streamlit apps
